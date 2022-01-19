@@ -1,0 +1,19 @@
+{
+  "name": "create-my-boilerplate-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "bin": {
+    "create-boilerplate": "./generate-app.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
